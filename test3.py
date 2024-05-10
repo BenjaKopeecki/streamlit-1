@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 
 
-df = pd.read_csv("g:\Shared drives\CT_Data_Files\DataSets\SalaryInfo\salaries.csv")
+df = pd.read_csv("salaries.csv")
 
 selected_columns = ['Employer', 'Job Title', 'Years of Experience', 'Location']
 selected_df = df[selected_columns]
